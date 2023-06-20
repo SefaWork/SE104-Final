@@ -93,8 +93,8 @@ int main()
 
     _sleep(1000);
 
-    cout<<"Would You Like To Make Another Operatoin [ yes / no ] : ";
-    cin>>*yesorno;
+    cout<<"Would you like to make another operation? [ yes / no ] : ";
+    cin >> *yesorno;
     cout<<endl;
     system("cls");
 
@@ -102,7 +102,7 @@ int main()
     while(*yesorno== "yes");
 
 
-    cout<<"Thanks for using our Calculator"<<endl;
+    cout<<"Thanks for using our calculator!"<<endl;
     _sleep(2000);
 
 
